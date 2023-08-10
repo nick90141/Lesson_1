@@ -6,19 +6,13 @@ public class Book_main {
 
         System.out.println("Книга №1: ");
 
-        Title title = new Title();
-        Title.titname = "Title name 1";
-
-        Author author = new Author();
-        Author.atnsame = "Author name 1";
-
-        Content content = new Content();
-        Content.conname = "Content name 1";
-
+        Title title = new Title("Title");
         Title.show();
+
+        Author author = new Author("Author");
         Author.show();
+
+        Content content = new Content("Content");
         Content.show();
-
     }
-
 }

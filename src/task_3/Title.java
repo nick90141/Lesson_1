@@ -1,8 +1,11 @@
 package task_3;
 
 public class Title {
-    public static String titname;
+    private String titname;
+    public Title (String titname){
+        this.titname = titname;
+    }
     public static void show() {
-        System.out.println(titname);
+        System.out.println("Title name 1");
     }
 }
